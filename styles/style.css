@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+}
+
+.navbar {
+  background-color: #1f2937;
+  overflow: hidden;
+}
+
+.header_logo {
+  display: flex;
+  justify-content: left;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.header {
+  font-family: "Roboto";
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: grid;
+  padding: 5%;
+}
+
+.button_hero {
+  font-family: "Roboto";
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+  border-radius: 5px;
+}
+
+.main_hero {
+  font-family: "Roboto";
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.blurb {
+  font-family: "Roboto";
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.packages {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.package_name {
+  font-family: "Roboto";
+}
+
+#package {
+  border: 5px;
+  border-color: #3882f6;
+}
+
+.testimonial_home {
+  background-color: #e5e7eb;
+}
+
+#testimonial_text {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#testimonial_name {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: bold;
+  margin-right: 20%;
+  text-align: right;
+
+  padding-bottom: 5%;
+}
+
+.action_call {
+  background-color: #3882f6;
+  display: grid;
+  border: solid #3882f6;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+}
+
+h3 {
+  color: #f9faf8;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+}
+
+.action_call_text {
+  grid-column: 2;
+}
+
+.signup_button {
+  font-family: "Roboto";
+  grid-column: 3;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+  border-radius: 5px;
+}
