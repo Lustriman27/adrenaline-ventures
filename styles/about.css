@@ -1,0 +1,93 @@
+:root {
+    --dark-background-color: #1f2937;
+    --hero-main-text-color: #f9faf8;
+    --hero-main-text-size: 48px;
+    --hero-main-text-weight: extra-bold;
+    --hero-secondary-text-size: 18px;
+    --hero-secondary-text-color: #e5e7eb;
+    --header-logo-text-size: 24px;
+    --header-logo-text-color: #f9faf8;
+    --button-color: #3882f6;
+    --info-header-text-size: 36px;
+    --info-header-text-weight: extra-bold;
+    --info-header-text-color: #1f2937;
+    --quote-section-background-color:#e5d7eb;
+    --quote-text-size: 36px;
+    --quote-text-weight: light italic;
+    --quote-text-color: #1f2937;
+}
+
+*{
+    font-family: "Roboto";
+}
+
+.navbar {
+  background-color: var(--dark-background-color);
+  top: 0%;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  justify-content: flex-start !important;
+  display: flex !important;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.logo-size {
+  height: 50px;
+}
+
+.header {
+  color: var(--hero-secondary-text-color);
+  font-size: var(--hero-secondary-text-size);
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 12px;
+}
+
+.about-us-intro {
+  background-color: var(--dark-background-color);
+  display: grid;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+.about-us-intro-header {
+  color: var(--hero-main-text-color);
+  font-size: var(--hero-main-text-size);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.about-us-intro-text {
+  color: var(--hero-secondary-text-color);
+  font-size: var(--hero-secondary-text-size);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.footer {
+  background-color: var(--dark-background-color);
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.copyright{
+    color: var(--quote-text-color);
+    size: var(--hero-secondary-text-size);
+}
