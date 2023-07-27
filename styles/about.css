@@ -22,11 +22,11 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+    src: url(../styles/fonts/Roboto-Medium.ttf)
+    format("truetype");
   }
 
 *{
-  font-family: "Roboto", Arial, Helvetica, sans-serif ;
   margin: 0;
 }
 
