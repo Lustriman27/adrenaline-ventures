@@ -5,5 +5,208 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
   </head>
+<<<<<<< Updated upstream
   <body></body>
+=======
+  <body>
+    <header class="header-signup">
+      
+        <nav class="navbar">
+          <div class="header_logo-link">
+            <a href="#">
+              <img class="logo" src="../images/icons/adrenalineventures-logo.png" alt="AdrenalineVentures Logo">
+            </a>
+          </div>
+
+          <div class="navbar_links">
+            <a class="nav-link" href="./pages/package.html">Packages</a>
+            <a class="nav-link" href="/pages/about.html">About Us</a>
+            <a class="nav-link" href="/pages/testimonial.html">Testimonials</a>
+          </div>
+      </nav>
+
+      <div class="header-text">
+        <h1>Sign Up for Thrilling Adventures with AdrenalineVentures!</h1>
+        <p>
+          Ready to embark on adrenaline-pumping journeys that will leave you
+          breathless and craving for more? Sign up now to experience the
+          ultimate thrill and connect with a community of adventure enthusiasts
+          just like you. Fill out the form below and let the excitement begin!
+        </p>
+      </div>
+
+    </header>
+
+    <main>
+      <form class="signup-form" id="signup-form" action="/submit">
+
+
+        <label for="adventures-list">Adventure Package Options</label>
+        <select class="list" id="adventures">
+          <option value="select">Please select one</option>
+          <option value="rafting">White-water Rafting and Kayaking</option>
+          <option value="mountain-bike">Mountain Biking and Trailblazing</option>
+          <option value="rock-climbing">Rock Climbing and Bouldering</option>
+          <option value="bungee-jumping">Bungee Jumping and Ziplining</option>
+          <option value="snowboarding">Snowboarding and Skiing in Challenging Terrains</option>
+          <option value="scuba-diving">Scuba Diving and Cave Exploration</option>
+        </select>
+
+        <label for="name-input">Name</label>
+        <input class="input" id="name-input" type="text" placeholder="Please enter your name">
+
+        <label for="surname-input">Surname</label>
+        <input class="input" id="surname-input" type="text" placeholder="Please enter your surname">
+
+        <label for="email-input">E-mail</label>
+        <input class="input" id="email-input" type="email" placeholder="Please enter your e-mail">
+
+        <label for="phone-input">Phone Number</label>
+        <input class="input" name="number-input" type="number" placeholder="Please enter your phone number">
+
+        <label for="places">Preferred Adventure Destination</label>
+        <select class="list" id="places">
+          <option value="select">Please select one</option>
+          <option value="place-1">Place 1</option>
+          <option value="place-2">Place 2</option>
+        </select>
+
+        <label for="number-of-participants">Number of Participants</label>
+        <select class="list" id="number-of-participants">
+          <option value="select">Please select one</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+        </select>
+
+        <label for="dates">Preferred Date(s) for the Adventure</label>
+        <input type="date" id="dates" name="dates">
+
+        <label for="comments">
+          Additional Comments or Questions</label>
+        <textarea name="comments" form="signup-form"></textarea>
+      
+     
+        <section class="checkbox-container">
+         
+          <div class="checkbox-div">
+             <input class="input" type="checkbox" id="terms-and-conditions" name="terms-and-conditions" value="none">
+             <label for="terms-and-conditions">
+                <strong>Terms and Conditions:</strong> By signing up for an adventure with AdrenalineVentures, 
+                you agree to our terms and conditions, including our safety guidelines and cancellation policy. 
+                Please read  the terms and conditions here before proceeding with your sign-up. 
+             </label><br>
+          </div>
+            
+         
+
+           <div class="checkbox-div">
+             <input class="input" type="checkbox" id="privacy-policy" name="privacy-policy" value="none">
+             <label for="terms-and-conditions">
+                <strong> Privacy Policy: </strong>
+                 We take your privacy seriously. Your personal information will only be used for the purpose 
+                 of organizing and coordinating your adventure with AdrenalineVentures. For more details, please read our privacy policy here.
+              </label><br>
+          </div>
+         
+           
+          <div class="checkbox-div">
+
+            <input class="input" type="checkbox" id="newsletter-notice" name="newsletter-notice" value="none">
+            <label for="newsletter-notice"> <strong>Stay Connected:</strong>
+               Join our newsletter to receive the latest updates on new adventures,
+              special offers, and community events. Tick the box below to subscribe to our newsletter.
+            </label><br>
+          </div>
+
+        </section>
+          
+          <button class="button" type="submit">Submit</button>
+
+          
+      </form>
+
+    </main>
+
+
+ <footer>
+
+            <section>
+
+            <div class="left-links">
+              <h3><a href="/index.html">AdrenalineVentures</a></h3>
+                <ul class="footer-links-list">
+                  <li><a href="/pages/package.html">Packages</a></li>
+                  <li><a href="/pages/testimonial.html">Testimonials</a></li>
+                  <li><a href="/pages/about.html">About Us</a></li>
+                  <li><a href="/pages/signup.html">Book an Adventure</a></li>
+                  <li><a href="/pages/signup.html">Terms & Conditions</a></li>
+                  <li><a href="/pages/signup.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-mid">
+                <div class="newsletter">
+                  <h3>Subscribe for Our Newsletter</h3>
+                  <form
+                      action="/subscribe"
+                      method="post">
+                        <input
+                          class="input"
+                          type="email"
+                          name="email"
+                          placeholder="Enter your email"
+                      required />
+                      <button type="submit">Subscribe</button>
+                    </form>
+              </div>
+          
+              <div class="stay-connected">
+                <h3>Stay Connected</h3>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-facebook-48.png" alt="facebook logo"></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-instagram-48.png" alt="instagram logo"></a>
+                <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-tiktok-48.png" alt="tiktok logo"></a>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-twitter-48.png" alt="twitter logo"></a>
+              </div>
+            </div>
+            
+
+            <div class="contact-us">
+              <h3>Contact Us</h3>
+              <p>Have questions or need assistance with your sign-up?</p>
+              <p>Feel free to reach out to us via phone or email:</p>
+              <p>Phone: +1 (555) 123-4567</p>
+              <p>Email:<a href="mailto:info@adrenalineventures.com"> info@adrenalineventures.com</a></p>
+              <p>
+                Join AdrenalineVentures today and let the adventure of a lifetime begin!
+              </p>
+            </div>
+
+          </section>
+
+          <div class="copyright">
+
+
+              <p>© 2023 AdrenalineVentures</p>
+          
+
+          </div>
+
+
+    </footer>
+  </body>
+>>>>>>> Stashed changes
 </html>
