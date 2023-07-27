@@ -36,10 +36,10 @@
 
 .hero {
   background-color: #1f2937;
-  display: grid;
+  display: inline-flex;
+  flex-direction: row;
   padding-top: 5%;
   padding-left: 15%;
-  padding-right: 15%;
   padding-bottom: 7%;
 }
 
@@ -48,10 +48,7 @@
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 48px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  font-weight: bold;
 }
 
 .main_hero {
@@ -59,10 +56,7 @@
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  width: 50%;
 }
 
 .button_hero {
@@ -71,19 +65,16 @@
   color: #e5e7eb;
   border-color: #e5e7eb;
   border-radius: 5px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 3;
+}
+
+.main_image {
+  justify-content: right;
+  padding-right: 19%;
 }
 
 .image_hero {
   height: 250px;
   padding-top: 50px;
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 4;
 }
 
 .blurb_1 {
