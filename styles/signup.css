@@ -211,8 +211,12 @@ footer > section {
   filter: invert();
 }
 
-.contact-us>h3{
-    margin-bottom: 10px;
+p.footer-heading{
+    font-size: 18px;
+}
+
+#contact-us{
+    font-size: 18px;
 }
 
 .contact-us>p{
@@ -226,3 +230,4 @@ line-height: 18px;
     color: #f9faf8;
     font-size: 14px;
 }
+
