@@ -110,3 +110,11 @@
   color: var(--hero-main-text-color);
   text-align: center;
 }
+
+.package-guide-title {
+  margin: 0 0 50px;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+  color: var(--dark-background-color);
+  text-align: center;
+}
