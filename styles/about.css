@@ -15,10 +15,13 @@
     --quote-text-size: 36px;
     --quote-text-weight: light italic;
     --quote-text-color: #1f2937;
+    --button-border-radius:5px;
+    --margin-bottom-text:5px;
+    --padding-section: 5% 5% 10% 5%;
 }
 
 *{
-    font-family: "Roboto";
+  font-family: "Roboto";
 }
 
 .navbar {
@@ -45,49 +48,245 @@
   color: var(--hero-secondary-text-color);
   font-size: var(--hero-secondary-text-size);
   text-decoration: none;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 2% 0% 2% 0%;
   padding: 12px;
 }
 
 .about-us-intro {
   background-color: var(--dark-background-color);
+  padding: var(--padding-section);
   display: grid;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 7%;
   text-align: center;
 }
 
 .about-us-intro-header {
   color: var(--hero-main-text-color);
   font-size: var(--hero-main-text-size);
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
 }
 
 .about-us-intro-text {
   color: var(--hero-secondary-text-color);
   font-size: var(--hero-secondary-text-size);
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  line-height: 2;
+}
+
+.about-us-who {
+  padding: var(--padding-section);
+  display: grid;
+  text-align: center;
+}
+
+.about-us-who-header {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-main-text-size);
+}
+
+.about-us-who-text {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-secondary-text-size);
+  line-height: 2;
+} 
+
+.about-us-what-sets-us-apart {
+  padding: var(--padding-section);
+  background-color: var(--quote-section-background-color);
+  display: grid;
+  text-align: center;
+}
+
+.about-us-what-sets-us-apart-header {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-main-text-size);
+}
+
+.about-us-what-sets-us-apart-text {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-secondary-text-size);
+  line-height: 2;
+}
+
+.about-us-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: var(--padding-section);
+}
+
+.about-us-boxes > div {
+      padding: 50px;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      color: var(--hero-secondary-text-color); 
+      max-width: 80%;
+}
+
+.about-us-boxes-box-one {
+  background-image: url('../images/about-us-img/safety-first.jpg');
+}
+
+.about-us-boxes-box-two {
+  background-image: url('../images/about-us-img/Tailor-Made-Experiences.jpg');
+}
+
+.about-us-boxes-box-three {
+  background-image: url('../images/about-us-img/Diverse-Range-Activities.jpg');
+}
+
+.about-us-boxes-box-four {
+  background-image: url('../images/about-us-img/Community-&-Supportive-Environment.jpg');
+}
+
+.about-us-boxes-box-five {
+  background-image: url('../images/about-us-img/Community-&-Connection.jpg');
+}
+
+.about-us-boxes-box-six {
+  background-image: url('../images/about-us-img/Sustainable-Tourism.jpg');
+}
+
+.about-us-why-choose-us {
+  padding: var(--padding-section);
+  display: grid;
+  text-align: center; 
+}
+.about-us-why-choose-us-header {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-main-text-size);
+}
+
+.about-us-why-choose-us-text {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-secondary-text-size);
+  line-height: 2;
+} 
+
+.book-your-adventure {
+  background-color: var(--button-color);
+  display: flex;
+  border-radius: 10px;
+  padding: 2% 2% 2% 10%;
+  margin: 0 12% 10% 12%;
+}
+
+.book-your-adventure-box {
+  margin: 3% 10% 3% 3%;
+}
+
+.book-your-adventure-box-header {
+  color: var(--hero-secondary-text-color);
+}
+
+.book-your-adventure-box-text {
+  color: var(--hero-secondary-text-color);
+}
+
+.book-your-adventure-button {
+  justify-content: right;
+  margin: 5% 15% 5% 10%;
+}
+
+.book-your-adventure-button-element {
+  background-color:var(--button-color);
+  color: var(--hero-secondary-text-color);
+  border-color: var(--quote-section-background-color);
+  border-radius: var(--button-border-radius);
+  padding: 10% 45% 10% 45%;
+  border-style:solid;
+}
+
+.book-your-adventure-button-element a {
+  color: var(--hero-secondary-text-color);
+  text-decoration: none;
+}
+
+.go-to-top{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.go-to-top-button img{
+  width: 30px;
+  height: 30px;
 }
 
 .footer {
+
   background-color: var(--dark-background-color);
-  text-align: center;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
+  color: var(--hero-secondary-text-color);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;  
+  padding: 3%;
 }
 
-.copyright{
-    color: var(--quote-text-color);
-    size: var(--hero-secondary-text-size);
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: var(--hero-secondary-text-color);
+  text-decoration: none;  
+  font-weight: bold;
+}
+
+.newsletter-input-box{
+  border-radius: var(--button-border-radius);
+  padding: 2%;  
+  border: none;
+}
+
+.newsletter-button{
+  background-color:var(--button-color);
+  color: var(--hero-secondary-text-color);
+  border-color: var(--quote-section-background-color);
+  border-radius: var(--button-border-radius);
+  padding: 2% 5% 2% 5%;  
+  border: none;
+}
+
+.newsletter-button a {
+  color: var(--hero-secondary-text-color);
+  text-decoration: none;
+}
+
+.stay-connected img {
+  width: 30px;
+  height: 30px;
+}
+
+.stay-connected a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.wrap-newsletter-stay-connected,
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us h3, p {
+  margin-bottom: var(--margin-bottom-text);
+}
+
+.contact-us a {
+  color: var(--hero-secondary-text-color);
+}
+
+.contact-us a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: var(--quote-text-color);
+  size: var(--hero-secondary-text-size);
+  text-align: left;
+  margin: 0;
 }
