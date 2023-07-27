@@ -68,12 +68,14 @@
 .about-us-intro-header {
   color: var(--hero-main-text-color);
   font-size: var(--hero-main-text-size);
+  font-weight: var(--info-header-text-weight);
   margin-bottom: 50px;
 }
 
 .about-us-intro-text {
   color: var(--hero-secondary-text-color);
   font-size: var(--hero-secondary-text-size);
+  font-weight: var(--quote-text-weight);
   line-height: 2;
 }
 
