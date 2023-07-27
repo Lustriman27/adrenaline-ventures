@@ -20,17 +20,23 @@
     --padding-section: 5% 5% 10% 5%;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+  }
+
 *{
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif ;
+  margin: 0;
 }
 
 .navbar {
   background-color: var(--dark-background-color);
-  top: 0%;
   text-align: center;
   justify-content: space-between;
   display: flex;
   align-items: center;
+  margin:0;
 }
 
 .header-logo {
@@ -62,6 +68,7 @@
 .about-us-intro-header {
   color: var(--hero-main-text-color);
   font-size: var(--hero-main-text-size);
+  margin-bottom: 50px;
 }
 
 .about-us-intro-text {
@@ -79,6 +86,7 @@
 .about-us-who-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
+  margin-bottom: 50px;
 }
 
 .about-us-who-text {
@@ -97,6 +105,7 @@
 .about-us-what-sets-us-apart-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
+  margin-bottom: 50px;
 }
 
 .about-us-what-sets-us-apart-text {
@@ -105,45 +114,7 @@
   line-height: 2;
 }
 
-.about-us-boxes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  padding: var(--padding-section);
-}
 
-.about-us-boxes > div {
-      padding: 50px;
-      text-align: center;
-      background-size: cover;
-      background-position: center;
-      color: var(--hero-secondary-text-color); 
-      max-width: 80%;
-}
-
-.about-us-boxes-box-one {
-  background-image: url('../images/about-us-img/safety-first.jpg');
-}
-
-.about-us-boxes-box-two {
-  background-image: url('../images/about-us-img/Tailor-Made-Experiences.jpg');
-}
-
-.about-us-boxes-box-three {
-  background-image: url('../images/about-us-img/Diverse-Range-Activities.jpg');
-}
-
-.about-us-boxes-box-four {
-  background-image: url('../images/about-us-img/Community-&-Supportive-Environment.jpg');
-}
-
-.about-us-boxes-box-five {
-  background-image: url('../images/about-us-img/Community-&-Connection.jpg');
-}
-
-.about-us-boxes-box-six {
-  background-image: url('../images/about-us-img/Sustainable-Tourism.jpg');
-}
 
 .about-us-why-choose-us {
   padding: var(--padding-section);
@@ -153,6 +124,7 @@
 .about-us-why-choose-us-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
+  margin-bottom: 50px;
 }
 
 .about-us-why-choose-us-text {
@@ -183,7 +155,7 @@
 
 .book-your-adventure-button {
   justify-content: right;
-  margin: 5% 15% 5% 10%;
+  margin: 2% 15% 2% 10%;
 }
 
 .book-your-adventure-button-element {
