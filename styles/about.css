@@ -2,7 +2,7 @@
     --dark-background-color: #1f2937;
     --hero-main-text-color: #f9faf8;
     --hero-main-text-size: 48px;
-    --hero-main-text-weight: extra-bold;
+    --hero-main-text-weight: bold;
     --hero-secondary-text-size: 18px;
     --hero-secondary-text-color: #e5e7eb;
     --header-logo-text-size: 24px;
@@ -13,7 +13,7 @@
     --info-header-text-color: #1f2937;
     --quote-section-background-color:#e5d7eb;
     --quote-text-size: 36px;
-    --quote-text-weight: light italic;
+    --quote-text-weight: italic;
     --quote-text-color: #1f2937;
     --button-border-radius:5px;
     --margin-bottom-text:5px;
@@ -21,12 +21,25 @@
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url(../styles/fonts/Roboto-Medium.ttf)
-    format("truetype");
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
   }
 
+@font-face {
+  font-family: "RobotoBlack", sans-serif;
+  src: url(../styles/fonts/Roboto-Black.ttf) format("truetype");
+  font-weight: bold;
+  }
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-LightItalic.ttf) format("truetype");
+  font-weight: italic;
+}
+
 *{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -68,7 +81,8 @@
 .about-us-intro-header {
   color: var(--hero-main-text-color);
   font-size: var(--hero-main-text-size);
-  font-weight: var(--info-header-text-weight);
+  font-family: "RobotoBlack", sans-serif;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
@@ -88,6 +102,8 @@
 .about-us-who-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
+  font-family: "RobotoBlack", sans-serif;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
@@ -106,7 +122,9 @@
 
 .about-us-what-sets-us-apart-header {
   color: var(--info-header-text-color);
-  font-size: var(--hero-main-text-size);
+  font-size: var(--hero-main-text-size); 
+  font-family: "RobotoBlack", sans-serif;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
@@ -118,6 +136,7 @@
 
 
 
+
 .about-us-why-choose-us {
   padding: var(--padding-section);
   display: grid;
@@ -126,6 +145,8 @@
 .about-us-why-choose-us-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
+  font-family: "RobotoBlack", sans-serif;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
