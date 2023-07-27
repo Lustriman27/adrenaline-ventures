@@ -1,0 +1,112 @@
+:root {
+  --dark-background-color: #1f2937;
+  --hero-main-text-color: #f9faf8;
+  --hero-main-text-size: 48px;
+  --hero-main-text-weight: extra-bold;
+  --hero-secondary-text-size: 18px;
+  --hero-secondary-text-color: #e5e7eb;
+  --header-logo-text-size: 24px;
+  --header-logo-text-color: #f9faf8;
+  --button-color: #3882f6;
+  --info-header-text-size: 36px;
+  --info-header-text-weight: extra-bold;
+  --info-header-text-color: #1f2937;
+  --quote-section-background-color: #e5d7eb;
+  --quote-text-size: 36px;
+  --quote-text-weight: light italic;
+  --quote-text-color: #1f2937;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+}
+
+* {
+  font-family: "Roboto";
+}
+
+.package-intro-container {
+  padding: 50px;
+}
+
+.package-intro {
+  padding: 0 250px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.package-intro-title {
+  margin: 0;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+  color: var(--dark-background-color);
+  text-align: center;
+}
+
+.package-intro-subtitle {
+  font-size: var(--hero-secondary-text-size);
+  text-align: center;
+}
+
+.package-intro-view-all {
+  padding: 20px;
+  width: 50%;
+  border: none;
+  color: #ffffff;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.package-picture-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.package-picture-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.package-picture-container {
+  position: relative;
+}
+
+.package-picture {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.package-text {
+  position: absolute;
+  margin: 0;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.package-offer-container {
+  background-color: rgba(31, 41, 55, 0.2);
+  padding: 50px;
+}
+
+.package-offer-title {
+  margin: 0 0 50px;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+  color: var(--hero-main-text-color);
+  text-align: center;
+}
