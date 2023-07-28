@@ -220,12 +220,14 @@
 }
 
 .package-detail-picture img {
+  position: relative;
   width: 400px;
   height: 268px;
   margin-top: 80px;
   margin-left: -70px;
   margin-right: 0;
   object-fit: cover;
+  opacity:0.6;
 }
 
 .package-detail-picture,
@@ -234,6 +236,7 @@
 }
 
 .package-detail-description p {
+  position: relative;
   margin: 80px 40px 10px -100px;
   line-height: 25px;
 }

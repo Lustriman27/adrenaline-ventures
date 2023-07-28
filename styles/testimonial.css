@@ -23,7 +23,7 @@ a {
 .testimonial {
   position: relative;
   background-color: rgba(31, 41, 55, 0.2);
-  color: #1f2937;
+  color: var(--dark-background-color);
   margin: 20px 150px;
   /* width: 1500px;
   height: 600px; */
@@ -31,38 +31,42 @@ a {
 
 .testimonial_head {
   position: relative;
-  height: 300px;
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #1f2937;
+  color: var(--hero-main-text-color);
+  background-color: var(--dark-background-color);
   font-family: Roboto;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   margin-left: -130px;
+  margin-top: 30px;
+  padding: 10px;
 }
 .testimonial_head .test {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .testimonial_head p {
   font-size: 15px;
   margin: 0;
   padding-left: 15px;
+  padding: 10px;
   line-height: 25px;
 }
+
 .testimonial_container {
   position: relative;
-  background-color: #fff;
+  background-color: var(--hero-main-text-color);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: -230px;
+  margin-top: -30px;
   margin-left: 250px;
   margin-right: 90px;
   margin-bottom: 100px;
@@ -75,12 +79,14 @@ a {
 }
 
 .testimonial_img img {
+  position: relative;
   width: 400px;
   height: 268px;
   margin-top: 80px;
   margin-left: -70px;
   margin-right: 0;
   object-fit: cover;
+  opacity:0.8;
 }
 
 .testimonial_img,
@@ -89,6 +95,7 @@ a {
   flex: 1 0 50%;
 }
 .testimonial_text p {
+  position: relative;
   margin: 90px 40px 10px -150px;
   line-height: 25px;
 }
