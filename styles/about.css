@@ -204,9 +204,6 @@
   padding: 2%;
   justify-content: right;
   margin: 2% 5% 2% 10%;
-} 
-
-.book-your-adventure-button-element a {
-  color: var(--hero-secondary-text-color);
-  text-decoration: none;
 }
+
+
