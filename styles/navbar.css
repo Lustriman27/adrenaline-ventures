@@ -124,6 +124,11 @@
   font-family: "Roboto";
   background-color: #3882f6;
   color: #e5e7eb;
+<<<<<<< Updated upstream
+=======
+  /* border-color: #e5e7eb; */
+  /* border: solid; */
+>>>>>>> Stashed changes
   border: none;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
