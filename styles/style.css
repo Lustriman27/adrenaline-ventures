@@ -103,7 +103,7 @@
   justify-content: space-evenly;
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 .package_name {
@@ -120,16 +120,16 @@
 }
 
 .testimonial_home {
-  color: var(--quote-section-background-color);
+  background-color: var(--quote-section-background-color);
   margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 
 #testimonial_text {
   font-family: "Roboto";
   font-size: 36px;
   font-style: italic;
-
-  color: var(--quote-text-color);
+  color: var(--info-header-text-color);
   padding-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
@@ -141,7 +141,7 @@
   font-style: bold;
   margin-right: 20%;
   text-align: right;
-  color: var(--quote-text-color);
+  color: var(--info-header-text-color);
   padding-bottom: 5%;
 }
 
