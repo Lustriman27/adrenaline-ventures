@@ -3,6 +3,10 @@
   src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
 }
 
+* {
+  margin: 0;
+}
+
 .navbar {
   background-color: #1f2937;
   top: 0%;
@@ -64,6 +68,7 @@
   background-color: #3882f6;
   color: #e5e7eb;
   border-color: #e5e7eb;
+  border: solid;
   border-radius: 5px;
 }
 
@@ -135,52 +140,57 @@
   padding-bottom: 5%;
 }
 
-.call_to_action {
-  display: flex;
+.book-your-adventure {
   background-color: #3882f6;
-  border: solid #3882f6;
+  display: flex;
   border-radius: 10px;
-  width: 1400px;
-  padding: 50px;
-  margin-top: 3%;
-  margin-left: 20%;
-  margin-right: 15%;
-  margin-bottom: 3%;
+  padding: 2% 2% 2% 10%;
+  margin: 0 15% 15% 15%;
 }
 
-.action_call {
-  justify-content: left;
-  width: 70%;
+.book-your-adventure-box {
+  margin: 3% 10% 3% 3%;
 }
 
-#action_call_header {
-  color: #f9faf8;
-  margin-left: 5%;
+.book-your-adventure-box-header {
+  color: #e5e7eb;
+  font-size: 19px;
+  font-weight: bold;
 }
 
-#action_call_text {
-  font-family: "Roboto";
-  color: #f9faf8;
-  word-break: normal;
-  margin-left: 5%;
+.book-your-adventure-box-text {
+  color: #e5e7eb;
 }
 
-.button_call {
-  margin-top: 4%;
-  margin-left: 10%;
+.book-your-adventure-button {
+  justify-content: right;
+  margin: 2% 15% 2% 10%;
 }
 
-.button_hero {
-  float: inline-end;
-  font-family: "Roboto";
+.book-your-adventure-button-element {
   background-color: #3882f6;
   color: #e5e7eb;
-  border-color: #e5e7eb;
+  border-color: #e5d7eb;
   border-radius: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 10% 45% 10% 45%;
+  border-style: solid;
+}
+
+.book-your-adventure-button-element a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/** section go-to-top */
+
+.go-to-top {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.go-to-top-button img {
+  width: 30px;
+  height: 30px;
 }
 
 footer {
