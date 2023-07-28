@@ -3,34 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/testimonial.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/testimonial.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css"/>
     <title>Testimonial</title>
   </head>
   <body>
     <header>
-      <nav>
-        <div class="navbar">
-          <div class="header_logo">
-            <a href="#">
-              <img
-                src="../images/icons/adrenalineventures-logo.png"
-                class="logo_size"
-                alt="AdrenalineVentures Logo"
-            /></a>
-          </div>
-          <div class="header_nav">
-            <a class="header" href="../index.html">Home</a>
-            <a class="header" href="/pages/package.html">Packages</a>
-            <a class="header" href="/pages/about.html">About Us</a>
-            <a class="header" href="/pages/signup.html">Book an Adventure</a>
-          </div>
+      <nav class="navbar">
+        <div class="header-logo">
+          <a href="/index.html">
+            <img
+              src="/images/icons/adrenalineventures-logo.png"
+              class="logo-size"
+              alt="AdrenalineVentures Logo" />
+          </a>
+        </div>
+        <div class="header_nav">
+          <a
+            class="header"
+            href="/pages/package.html">
+            Packages
+          </a>
+          <a
+            class="header"
+            href="/pages/about.html">
+            About
+          </a>
+          <a
+            class="header"
+            href="/pages/signup.html">
+            Book an Adventure
+          </a>
         </div>
       </nav>
 
-      <div class="hero">
-        <h2 class="hero_header">Welcome to Our Testimonial Page</h2>
-        <p class="hero_header sub">Real Stories of Thrill and Adventure!</p>
-        <p class="main_hero">
+      <section class="about-us-intro">
+        <h2 class="about-us-intro-header">Welcome to Our Testimonial Page</h2>
+        <p class="about-us-intro-text">Real Stories of Thrill and Adventure!</p>
+        <p class="about-us-intro-text">
           At AdrenalineVentures, we take immense pride in curating
           adrenaline-packed journeys that leave our adventurers with
           unforgettable memories and exhilarating experiences. Our Testimonial
@@ -39,7 +50,7 @@
           These testimonials are a testament to the passion, dedication, and
           commitment we pour into every adventure we curate.
         </p>
-      </div>
+      </section>
     </header>
     <!--testimonials-->
     <main>
@@ -378,7 +389,7 @@
     <footer>
       <section>
         <div class="left-links">
-          <h3><a href="/index.html">AdrenalineVentures</a></h3>
+          <p class="footer-heading"><a href="/index.html">AdrenalineVentures</a></p>
           <ul class="footer-links-list">
             <li><a href="/pages/package.html">Packages</a></li>
             <li><a href="/pages/testimonial.html">Testimonials</a></li>
@@ -389,74 +400,50 @@
           </ul>
         </div>
 
+
         <div class="footer-mid">
           <div class="newsletter">
-            <h3>Subscribe for Our Newsletter</h3>
-            <form action="/subscribe" method="post">
+            <p class="footer-heading">Subscribe for Our Newsletter</p>
+            <form
+              action="/subscribe"
+              method="post">
               <input
                 class="input"
                 type="email"
                 name="email"
                 placeholder="Enter your email"
-                required
-              />
+                required />
               <button type="submit">Subscribe</button>
             </form>
           </div>
+
           <div class="stay-connected">
-            <h3>Stay Connected</h3>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="../images/icons/icons8-facebook-48.png"
-                alt="facebook logo"
-            /></a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="../images/icons/icons8-instagram-48.png"
-                alt="instagram logo"
-            /></a>
-            <a
-              href="https://www.tiktok.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="../images/icons/icons8-tiktok-48.png"
-                alt="tiktok logo"
-            /></a>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><img
-                src="../images/icons/icons8-twitter-48.png"
-                alt="twitter logo"
-            /></a>
+            <p class="footer-heading">Stay Connected</p>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-facebook-48.png" alt="facebook logo"></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-instagram-48.png" alt="instagram logo"></a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-tiktok-48.png" alt="tiktok logo"></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src="../images/icons/icons8-twitter-48.png" alt="twitter logo"></a>
           </div>
         </div>
+
+
         <div class="contact-us">
-          <h3>Contact Us</h3>
+          <p id="contact-us" class="footer-heading">Contact Us</p>
           <p>Have questions or need assistance with your sign-up?</p>
           <p>Feel free to reach out to us via phone or email:</p>
           <p>Phone: +1 (555) 123-4567</p>
-          <p>
-            Email:<a href="mailto:info@adrenalineventures.com">
-              info@adrenalineventures.com</a
-            >
-          </p>
-          <p>
-            Join AdrenalineVentures today and let the adventure of a lifetime
-            begin!
-          </p>
+          <p>Email:<a href="mailto:info@adrenalineventures.com"> info@adrenalineventures.com</a></p>
+          <p>Join AdrenalineVentures today and let the adventure of a lifetime begin!</p>
         </div>
+
       </section>
+
       <div class="copyright">
-        <p>© 2023 AdrenalineVentures</p>
+
+
+          <p>© 2023 AdrenalineVentures</p>
+
+
       </div>
     </footer>
   </body>
