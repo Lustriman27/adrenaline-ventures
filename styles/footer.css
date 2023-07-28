@@ -8,6 +8,20 @@
   margin: 0px;
 }
 
+/** section go-to-top */
+
+.go-to-top {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.go-to-top-button img {
+  width: 30px;
+  height: 30px;
+}
+
+/** footer */
+
 footer {
   background-color: #1f2937;
   display: flex;
@@ -65,7 +79,7 @@ a {
   gap: 10px;
 }
 
-.newsletterform {
+.newsletter form {
   display: flex;
 }
 

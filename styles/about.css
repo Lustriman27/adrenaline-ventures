@@ -27,76 +27,32 @@
 }
 
 @font-face {
+<<<<<<< Updated upstream
   font-family: 'Roboto';
   src: url('../styles/fonts/Roboto-Black.ttf') format('truetype');
+=======
+  font-family: 'RobotoExtraBold';
+  src: url('../styles/fonts/Roboto-ExtraBold.ttf') format('truetype');
+>>>>>>> Stashed changes
   font-weight: bold;
 }
 
 @font-face {
+<<<<<<< Updated upstream
   font-family: 'Roboto';
+=======
+  font-family: 'RobotoLightItalic';
+>>>>>>> Stashed changes
   src: url('../styles/fonts/Roboto-LightItalic.ttf') format('truetype');
   font-weight: italic;
 }
-
 
 * {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-/** Navigation bar and header */
-
-.navbar {
-  background-color: var(--dark-background-color);
-  font-family:'Roboto', Arial, Helvetica, sans-serif;
-  text-align: center;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  padding: 1% 15% 0% 15%;
-}
-
-.header-logo {
-  justify-content: flex-start !important;
-  display: flex !important;
-}
-
-.logo-size {
-  height: 50px;
-}
-
-.header {
-  color: var(--hero-secondary-text-color);
-  font-size: var(--hero-secondary-text-size);
-  font-family: 'Roboto';
-  text-decoration: none;
-  margin: 15px 0px 15px 0px;
-  padding: 12px;
-}
-
-.about-us-intro {
-  background-color: var(--dark-background-color);
-  padding: var(--padding-section);
-  text-align: center;
-  padding: 15%;
-}
-
-.about-us-intro-header {
-  color: var(--hero-main-text-color);
-  font-size: var(--hero-main-text-size);
-  font-family: 'RobotoBlack', sans-serif;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-
-.about-us-intro-text {
-  color: var(--hero-secondary-text-color);
-  font-size: var(--hero-secondary-text-size);
-  font-weight: var(--quote-text-weight);
-  line-height: 2;
-}
-
-/** section about-us-intro */
+/** section about-us-who */
 
 .about-us-who {
   padding: var(--padding-section);
@@ -113,7 +69,7 @@
 .about-us-who-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
-  font-family: 'RobotoBlack', sans-serif;
+  font-family: 'RobotoExtraBold', sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -136,7 +92,7 @@
 .about-us-what-sets-us-apart-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
-  font-family: 'RobotoBlack', sans-serif;
+  font-family: 'RobotoExtraBold', sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -145,61 +101,72 @@
   color: var(--info-header-text-color);
   font-size: var(--hero-secondary-text-size);
   line-height: 2;
+  margin-bottom: 30px;
 }
 
 /** flexbox about-us-boxes */
 
 .about-us-boxes {
-  margin: 5%;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  margin: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-us-boxes-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.about-us-boxes-container {
   position: relative;
 }
 
-.about-us-boxes-box {
+.about-us-boxes-picture {
+  width: 300px;
   height: 400px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.about-us-boxes-box img {
-  height: 400px;
-  width: 100%;
   object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-us-boxes-overlay {
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
-  opacity: 0.2;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(76, 79, 80, 0.7);
+  border-radius: 20px;
 }
 
-.about-us-boxes-box:hover img {
-  filter: grayscale(100%);
+.about-us-boxes-container:hover .about-us-boxes-overlay {
+  opacity: 1;
 }
 
-.about-us-boxes-box p {
-  position: relative;
-  z-index: 1;
-  color: var(--info-header-text-color);
+.about-us-boxes-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin: auto;
-  padding: 10px;
-  line-height: 1.5;
+}
+
+.about-us-boxes-long-text {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  text-align: left;
 }
 
 /** section about-us-why-choose-us */
@@ -219,7 +186,7 @@
 .about-us-why-choose-us-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
-  font-family: 'RobotoBlack', sans-serif;
+  font-family: 'RobotoExtraBold', sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -273,115 +240,3 @@
   text-decoration: none;
 }
 
-/** section go-to-top */
-
-.go-to-top {
-  text-align: center;
-  margin-bottom: 1%;
-}
-
-.go-to-top-button img {
-  width: 30px;
-  height: 30px;
-}
-
-/** section footer */
-
-footer {
-  background-color: #1f2937;
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-}
-
-footer > section {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  color: #f9faf8;
-  justify-content: space-evenly;
-}
-
-.footer-links-list {
-  padding: 0px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  color: #f9faf8;
-  font-size: 18px;
-  line-height: 18px;
-  text-decoration: none;
-}
-
-.footer-links-list > h3,
-a {
-  color: #f9faf8;
-  text-decoration: none;
-}
-
-.footer-links-list a {
-  color: #f9faf8;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: lighter;
-}
-
-.footer-links-list {
-  list-style: none;
-}
-
-.footer-mid {
-  color: white;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.newsletter {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.newsletterform {
-  display: flex;
-}
-
-.newsletter input {
-  background-color: #4a4a4a;
-  color: #f9faf8;
-  font-size: 18px;
-  border: none;
-  padding: 10px;
-}
-
-.newsletter button {
-  background-color: #3882f6;
-  font-size: 18px;
-  border: none;
-  align-self: center;
-  color: #f9faf8;
-  padding: 10px;
-}
-
-.stay-connected img {
-  width: 40px;
-  filter: invert();
-}
-
-.contact-us > h3 {
-  margin-bottom: 10px;
-}
-
-.contact-us > p {
-  font-size: 14px;
-  line-height: 18px;
-}
-
-.copyright p {
-  text-align: center;
-  margin-top: 40px;
-  color: #f9faf8;
-  font-size: 14px;
-}
