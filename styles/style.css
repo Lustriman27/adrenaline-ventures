@@ -86,9 +86,9 @@
 
 .blurb_1 {
   font-family: "Roboto";
-  padding-right: 15%;
-  padding-left: 15%;
-  padding-top: 20px;
+  text-align: center;
+  font-size: var(--info-header-text-size);
+  padding: 3% 15% 3% 15%;
 }
 
 .blurb_2 {
