@@ -20,33 +20,6 @@
   --padding-section: 5% 5% 10% 5%;
 }
 
-@font-face {
-  font-family: 'Roboto';
-  src: url('../styles/fonts/Roboto-Regular.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-<<<<<<< Updated upstream
-  font-family: 'Roboto';
-  src: url('../styles/fonts/Roboto-Black.ttf') format('truetype');
-=======
-  font-family: 'RobotoExtraBold';
-  src: url('../styles/fonts/Roboto-ExtraBold.ttf') format('truetype');
->>>>>>> Stashed changes
-  font-weight: bold;
-}
-
-@font-face {
-<<<<<<< Updated upstream
-  font-family: 'Roboto';
-=======
-  font-family: 'RobotoLightItalic';
->>>>>>> Stashed changes
-  src: url('../styles/fonts/Roboto-LightItalic.ttf') format('truetype');
-  font-weight: italic;
-}
-
 * {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin: 0;
