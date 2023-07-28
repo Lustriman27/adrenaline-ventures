@@ -34,7 +34,7 @@
 @font-face {
   font-family: "RobotoLightItalic";
   src: url("../styles/fonts/Roboto-LightItalic.ttf") format("truetype");
-  font-weight: italic;
+  font-style: italic;
 }
 
 * {
