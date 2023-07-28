@@ -124,9 +124,9 @@
   font-family: "Roboto";
   background-color: #3882f6;
   color: #e5e7eb;
-  border-color: #e5e7eb;
-  border: solid;
+  border: none;
   border-radius: 5px;
+  padding: 5px 10px 5px 10px;
 }
 
 .main_image {
