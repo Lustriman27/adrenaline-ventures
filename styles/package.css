@@ -1,0 +1,227 @@
+:root {
+  --dark-background-color: #1f2937;
+  --hero-main-text-color: #f9faf8;
+  --hero-main-text-size: 48px;
+  --hero-main-text-weight: extra-bold;
+  --hero-secondary-text-size: 18px;
+  --hero-secondary-text-color: #e5e7eb;
+  --header-logo-text-size: 24px;
+  --header-logo-text-color: #f9faf8;
+  --button-color: #3882f6;
+  --info-header-text-size: 36px;
+  --info-header-text-weight: extra-bold;
+  --info-header-text-color: #1f2937;
+  --quote-section-background-color: #e5d7eb;
+  --quote-text-size: 36px;
+  --quote-text-weight: light italic;
+  --quote-text-color: #1f2937;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+}
+
+* {
+  font-family: "Roboto";
+}
+
+.package-container {
+  padding: 50px;
+}
+
+.package-intro {
+  padding: 0 250px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.package-intro-title {
+  margin: 0;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+  color: var(--dark-background-color);
+  text-align: center;
+}
+
+.package-intro-subtitle {
+  font-size: var(--hero-secondary-text-size);
+  text-align: center;
+}
+
+.package-intro-view-all {
+  padding: 20px;
+  width: 50%;
+  border: none;
+  color: #ffffff;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.package-picture-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.package-picture-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.package-picture-container {
+  position: relative;
+}
+
+.package-picture {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.package-picture-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(76, 79, 80, 0.7);
+}
+
+.package-picture-container:hover .package-picture-overlay {
+  opacity: 1;
+}
+
+.package-picture-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.package-picture-long-text {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+.package-offer-container {
+  background-color: rgba(31, 41, 55, 0.2);
+  padding: 50px;
+}
+
+.package-offer-title {
+  margin: 0 0 50px;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+  color: var(--hero-main-text-color);
+  text-align: center;
+}
+
+.package-guide-title {
+  margin: 0 0 50px;
+  font-size: var(--hero-main-text-size);
+  font-weight: var(--hero-main-text-weight);
+  color: var(--dark-background-color);
+  text-align: center;
+}
+
+.package-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.package-detail {
+  position: relative;
+  background-color: rgba(31, 41, 55, 0.2);
+  color: #1f2937;
+  margin: 20px 150px;
+}
+
+.package-detail-title-wrapper {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -130px;
+}
+
+.package-detail-title-wrapper .package-detail-title-text {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.package-detail-title-wrapper p {
+  font-size: 15px;
+  margin: 0;
+  padding-left: 15px;
+  line-height: 25px;
+}
+
+.package-description-container {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -230px;
+  margin-left: 250px;
+  margin-right: 90px;
+  margin-bottom: 100px;
+  height: 450px;
+}
+
+.package-detail-picture {
+  width: 50px;
+  height: 100px;
+}
+
+.package-detail-picture img {
+  width: 400px;
+  height: 268px;
+  margin-top: 80px;
+  margin-left: -70px;
+  margin-right: 0;
+  object-fit: cover;
+}
+
+.package-detail-picture,
+.package-detail-description-wrapper {
+  flex: 1 0 50%;
+}
+
+.package-detail-description p {
+  margin: 80px 40px 10px -100px;
+  line-height: 25px;
+}
+
+.package-detail-book-now {
+  margin-left: -100px;
+}
