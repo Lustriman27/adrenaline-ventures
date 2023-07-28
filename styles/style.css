@@ -115,12 +115,12 @@
 #package {
   height: 100px;
   border: 3px solid;
-  border-color: #3882f6;
+  color: var(--button-color);
   border-radius: 25px;
 }
 
 .testimonial_home {
-  background-color: #e5e7eb;
+  color: var(--quote-section-background-color);
   margin-bottom: 20px;
 }
 
@@ -128,7 +128,8 @@
   font-family: "Roboto";
   font-size: 36px;
   font-style: italic;
-  color: #1f2937;
+
+  color: var(--quote-text-color);
   padding-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
@@ -140,12 +141,12 @@
   font-style: bold;
   margin-right: 20%;
   text-align: right;
-
+  color: var(--quote-text-color);
   padding-bottom: 5%;
 }
 
 .book-your-adventure {
-  background-color: #3882f6;
+  background-color: var(--button-color);
   display: flex;
   border-radius: 10px;
   padding: 2% 2% 2% 10%;
@@ -157,13 +158,13 @@
 }
 
 .book-your-adventure-box-header {
-  color: #e5e7eb;
-  font-size: 19px;
+  color: var(--hero-main-text-color);
+  font-size: var(--hero-secondary-text-size);
   font-weight: bold;
 }
 
 .book-your-adventure-box-text {
-  color: #e5e7eb;
+  color: var(--hero-main-text-color);
 }
 
 .book-your-adventure-button {
@@ -172,16 +173,16 @@
 }
 
 .book-your-adventure-button-element {
-  background-color: #3882f6;
-  color: #e5e7eb;
-  border-color: #e5d7eb;
+  background-color: var(--button-color);
+  color: var(--hero-main-text-color);
+  border-color: var(--quote-section-background-color);
   border-radius: 5px;
   padding: 10% 45% 10% 45%;
   border-style: solid;
 }
 
 .book-your-adventure-button-element a {
-  color: #e5e7eb;
+  color: var(--hero-secondary-text-color);
   text-decoration: none;
 }
 
@@ -197,8 +198,8 @@
   height: 30px;
 }
 
-footer {
-  background-color: #1f2937;
+/* footer {
+  background-color: var(--info-header-text-color);
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -294,4 +295,4 @@ a {
   margin-top: 40px;
   color: #f9faf8;
   font-size: 14px;
-}
+} */
