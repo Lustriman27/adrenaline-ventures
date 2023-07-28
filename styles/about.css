@@ -7,7 +7,7 @@
   --quote-text-color: #1f2937;
   --button-color: #3882f6;
   --info-header-text-color: #1f2937;
-  --quote-section-background-color: #e5d7eb;
+  --quote-section-background-color: #e5e7eb;
   /* Font sizes and weights */
   --hero-main-text-size: 48px;
   --hero-secondary-text-size: 18px;
@@ -21,7 +21,7 @@
 }
 
 * {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -33,7 +33,7 @@
   padding: 15% 15% 15% 15%;
 }
 
-.about-us-who img{
+.about-us-who img {
   width: 100%;
   border-radius: 20px;
   margin-bottom: 40px;
@@ -42,7 +42,7 @@
 .about-us-who-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
-  font-family: 'RobotoExtraBold', sans-serif;
+  font-family: "RobotoExtraBold", sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -65,7 +65,7 @@
 .about-us-what-sets-us-apart-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
-  font-family: 'RobotoExtraBold', sans-serif;
+  font-family: "RobotoExtraBold", sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -150,7 +150,7 @@
   padding: 15%;
 }
 
-.about-us-why-choose-us img{
+.about-us-why-choose-us img {
   width: 100%;
   border-radius: 20px;
   margin-bottom: 40px;
@@ -159,7 +159,7 @@
 .about-us-why-choose-us-header {
   color: var(--info-header-text-color);
   font-size: var(--hero-main-text-size);
-  font-family: 'RobotoExtraBold', sans-serif;
+  font-family: "RobotoExtraBold", sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
@@ -212,4 +212,3 @@
   color: var(--hero-secondary-text-color);
   text-decoration: none;
 }
-
