@@ -26,7 +26,7 @@
   font-family: "Roboto";
 }
 
-.package-intro-container {
+.package-container {
   padding: 50px;
 }
 
@@ -114,17 +114,15 @@
   text-align: center;
 }
 
-.package-text {
-  position: absolute;
-  margin: 0;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  width: 100%;
+.package-picture-long-text {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  text-align: left;
 }
 
 .package-offer-container {
