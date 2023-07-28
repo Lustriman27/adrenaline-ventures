@@ -195,18 +195,16 @@
 }
 
 .book-your-adventure-button {
-  justify-content: right;
-  margin: 2% 15% 2% 10%;
-}
-
-.book-your-adventure-button-element {
   background-color: var(--button-color);
   color: var(--hero-secondary-text-color);
   border-color: var(--quote-section-background-color);
   border-radius: var(--button-border-radius);
-  padding: 10% 45% 10% 45%;
   border-style: solid;
-}
+  text-align: center;
+  padding: 2%;
+  justify-content: right;
+  margin: 2% 5% 2% 10%;
+} 
 
 .book-your-adventure-button-element a {
   color: var(--hero-secondary-text-color);
