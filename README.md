@@ -1,6 +1,6 @@
 # Welcome to Adrenaline Ventures Web
 
-![Your Web Project Logo](./images/adrenalineventures-logo.png)
+![Your Web Project Logo](./images/icons/adrenalineventures-logo.png)
 
 ## Introduction
 

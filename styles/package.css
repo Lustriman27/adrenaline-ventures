@@ -18,8 +18,21 @@
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-Black.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-LightItalic.ttf) format("truetype");
+  font-weight: italic;
 }
 
 * {
@@ -40,7 +53,7 @@
 }
 
 .package-intro-title {
-  margin: 0;
+  margin-bottom: 25px;
   font-size: var(--hero-main-text-size);
   font-weight: var(--hero-main-text-weight);
   color: var(--dark-background-color);
@@ -48,8 +61,10 @@
 }
 
 .package-intro-subtitle {
+  margin-bottom: 25px;
   font-size: var(--hero-secondary-text-size);
   text-align: center;
+  line-height: 24px;
 }
 
 .package-intro-view-all {
@@ -83,6 +98,7 @@
   width: 300px;
   height: 400px;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .package-picture-overlay {
@@ -96,6 +112,7 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: rgba(76, 79, 80, 0.7);
+  border-radius: 20px;
 }
 
 .package-picture-container:hover .package-picture-overlay {
@@ -108,8 +125,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
