@@ -75,6 +75,7 @@
   background-color: #3882f6;
   font-size: 16px;
   font-weight: 600;
+  text-align: center;
 }
 
 .package-picture-list {
@@ -238,5 +239,7 @@
 }
 
 .package-detail-book-now {
+  position: relative;
+  top: 20px;
   margin-left: -100px;
 }
