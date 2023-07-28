@@ -6,7 +6,7 @@
 * {
   margin: 0;
 }
-
+/* 
 .navbar {
   background-color: #1f2937;
   top: 0%;
@@ -38,6 +38,8 @@
   padding: 12px;
 }
 
+*/
+/* 
 .hero {
   background-color: #1f2937;
   display: inline-flex;
@@ -80,7 +82,7 @@
 .image_hero {
   height: 250px;
   padding-top: 50px;
-}
+} */
 
 .blurb_1 {
   font-family: "Roboto";
@@ -101,6 +103,7 @@
   justify-content: space-evenly;
   margin-left: 25%;
   margin-right: 25%;
+  margin-bottom: 20px;
 }
 
 .package_name {
@@ -118,6 +121,7 @@
 
 .testimonial_home {
   background-color: #e5e7eb;
+  margin-bottom: 20px;
 }
 
 #testimonial_text {
