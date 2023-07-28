@@ -3,36 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css"/>
     <link rel="stylesheet" href="../styles/signup.css">
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css"/>
     <title>Sign Up</title>
   </head>
   <body>
-    <header class="header-signup">
-      
-        <nav class="navbar">
-          <div class="header_logo-link">
-            <a href="#">
-              <img class="logo" src="../images/icons/adrenalineventures-logo.png" alt="AdrenalineVentures Logo">
-            </a>
-          </div>
-
-          <div class="navbar_links">
-            <a class="nav-link" href="./pages/package.html">Packages</a>
-            <a class="nav-link" href="/pages/about.html">About Us</a>
-            <a class="nav-link" href="/pages/testimonial.html">Testimonials</a>
-          </div>
+    <header>
+      <nav class="navbar">
+        <div class="header-logo">
+          <a href="/index.html">
+            <img
+              src="/images/icons/adrenalineventures-logo.png"
+              class="logo-size"
+              alt="AdrenalineVentures Logo"
+            />
+          </a>
+        </div>
+        <div class="header_nav">
+          <a class="header" href="/pages/about.html">About Us</a>
+          <a class="header" href="/pages/testimonial.html">Testimonials</a>
+          <a class="header" href="/pages/signup.html">Book an Adventure</a>
+        </div>
       </nav>
-
-      <div class="header-text">
-        <h1>Sign Up for Thrilling Adventures with AdrenalineVentures!</h1>
-        <p>
+      <section class="about-us-intro">
+        <h2 class="about-us-intro-header">Sign Up for Thrilling Adventures with AdrenalineVentures!</h2>
+        <p class="about-us-intro-text">
           Ready to embark on adrenaline-pumping journeys that will leave you
           breathless and craving for more? Sign up now to experience the
           ultimate thrill and connect with a community of adventure enthusiasts
           just like you. Fill out the form below and let the excitement begin!
         </p>
-      </div>
-
+      </section>
     </header>
 
     <main>
@@ -136,6 +139,11 @@
           
       </form>
 
+      <div class="go-to-top">
+        <a href="#" class="go-to-top-button">
+          <img src="/images/icons/arrow-up.png" alt="button to go to top" />
+        </a>
+      </div>
     </main>
 
 

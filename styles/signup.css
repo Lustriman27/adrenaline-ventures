@@ -8,59 +8,6 @@
   margin: 0px;
 }
 
-.header-signup {
-  background-color: #1f2937;
-  color: #f9faf8;
-  display: flex;
-  flex-direction: column;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2rem;
-}
-
-.header_logo {
-  justify-content: flex-start !important;
-  display: flex !important;
-}
-
-.logo {
-  height: 50px;
-}
-
-.navbar_links {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  color: #f9faf8;
-  align-items: center;
-  font-size: 24px;
-}
-
-.navbar_links a {
-  color: #f9faf8;
-  text-decoration: none;
-}
-
-.header-text {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.header-text > h1 {
-  font-size: 48px;
-  font-weight: 800;
-}
-
-.header-text > p {
-  font-size: 18px;
-  padding: 80px;
-}
 
 .signup-form {
   padding: 6.2rem;
