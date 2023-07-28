@@ -1,0 +1,202 @@
+:root {
+  --dark-background-color: #1f2937;
+  --hero-main-text-color: #f9faf8;
+  --hero-main-text-size: 48px;
+  --hero-main-text-weight: extra-bold;
+  --hero-secondary-text-size: 18px;
+  --hero-secondary-text-color: #e5e7eb;
+  --header-logo-text-size: 24px;
+  --header-logo-text-color: #f9faf8;
+  --button-color: #3882f6;
+  --info-header-text-size: 36px;
+  --info-header-text-weight: extra-bold;
+  --info-header-text-color: #1f2937;
+  --quote-section-background-color: #e5d7eb;
+  --quote-text-size: 36px;
+  --quote-text-weight: light italic;
+  --quote-text-color: #1f2937;
+  --button-border-radius: 5px;
+  --margin-bottom-text: 5px;
+  --padding-section: 5% 5% 10% 5%;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../styles/fonts/Roboto-Medium.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-Black.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../styles/fonts/Roboto-LightItalic.ttf) format("truetype");
+  font-weight: italic;
+}
+* {
+  font-family: "Roboto";
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* testimonial */
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.testimonial {
+  position: relative;
+  background-color: rgba(31, 41, 55, 0.2);
+  color: #1f2937;
+  margin: 20px 150px;
+  /* width: 1500px;
+  height: 600px; */
+}
+
+.testimonial_head {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f2937;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: -130px;
+}
+.testimonial_head .test {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.testimonial_head p {
+  font-size: 15px;
+  margin: 0;
+  padding-left: 15px;
+  line-height: 25px;
+}
+.testimonial_container {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -230px;
+  margin-left: 250px;
+  margin-right: 90px;
+  margin-bottom: 100px;
+  height: 450px;
+}
+
+.testimonial_img {
+  width: 50px;
+  height: 100px;
+}
+
+.testimonial_img img {
+  width: 400px;
+  height: 268px;
+  margin-top: 80px;
+  margin-left: -70px;
+  margin-right: 0;
+  object-fit: cover;
+}
+
+.testimonial_img,
+.testimonial_text,
+.quote {
+  flex: 1 0 50%;
+}
+.testimonial_text p {
+  margin: 90px 40px 10px -150px;
+  line-height: 25px;
+}
+.testimonial_text .name,
+.testimonial_text .based {
+  display: inline-block;
+}
+.testimonial_text .name {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.testimonial_text .based {
+  margin-top: 0;
+  margin-left: 20px;
+}
+.quote {
+  margin: 20px;
+}
+
+/*blue section book your adventure */
+
+.book-your-adventure {
+  background-color: var(--button-color);
+  display: flex;
+  border-radius: 10px;
+  padding: 2% 2% 2% 10%;
+  margin: 5% 12% 5% 12%;
+}
+
+.book-your-adventure-box {
+  margin: 3% 10% 3% 3%;
+}
+
+.book-your-adventure-box-header {
+  color: var(--hero-secondary-text-color);
+  font-size: 25px;
+}
+
+.book-your-adventure-box-text {
+  color: var(--hero-secondary-text-color);
+}
+
+.book-your-adventure-button {
+  justify-content: right;
+  margin: 2% 15% 2% 10%;
+}
+
+.book-your-adventure-button-element {
+  background-color: var(--button-color);
+  color: var(--hero-secondary-text-color);
+  border-color: var(--quote-section-background-color);
+  border-radius: var(--button-border-radius);
+  padding: 10% 45% 10% 45%;
+  border-style: solid;
+}
+
+.book-your-adventure-button-element a {
+  color: var(--hero-secondary-text-color);
+  text-decoration: none;
+}
+
+/*go to top */
+.go-to-top {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.go-to-top-button img {
+  width: 30px;
+  height: 30px;
+}
+
