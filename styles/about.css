@@ -49,6 +49,7 @@
 
 .navbar {
   background-color: var(--dark-background-color);
+  font-family:'Roboto', Arial, Helvetica, sans-serif;
   text-align: center;
   justify-content: space-between;
   display: flex;
