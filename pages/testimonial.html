@@ -3,197 +3,467 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/testimonial.css">
+    <link rel="stylesheet" type="text/css" href="../styles/testimonial.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/footer.css" />
     <title>Testimonial</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
-          <div class="header_logo">
-            <a href="#"><img src="../images/adrenalineventures.png" alt="AdrenalineVentures Logo"></a>
-          </div>
-          <div class="header_nav">
-            <a class="header" href="/pages/package.html">Packages</a>
-            <a class="header" href="/pages/about.html">About Us</a>
-            <a class="header" href="/pages/signup.html">Book an Adventure</a>
-          </div>
+        <div class="header-logo">
+          <a href="/index.html">
+            <img
+              src="/images/icons/adrenalineventures-logo.png"
+              class="logo-size"
+              alt="AdrenalineVentures Logo"
+            />
+          </a>
+        </div>
+        <div class="header_nav">
+          <a class="header" href="/pages/about.html"> About Us </a>
+          <a class="header" href="/pages/package.html"> Packages </a>
+          <a class="header" href="/pages/signup.html"> Book an Adventure </a>
+        </div>
       </nav>
-      <div class="header_intro">
-        <h2>Welcome to Our Testimonial Page</h2>
-        <h5>Real Stories of Thrill and Adventure!</h5>
-        <p class="intro_container">
-         At AdrenalineVentures, we take immense pride in curating adrenaline-packed journeys that leave our adventurers with unforgettable memories and exhilarating experiences. Our Testimonial Page is a collection of real stories from thrill-seekers and adventure enthusiasts who have embarked on extraordinary escapades with us. These testimonials are a testament to the passion, dedication, and commitment we pour into every adventure we curate.
+
+      <section class="about-us-intro">
+        <h2 class="about-us-intro-header">Welcome to Our Testimonial Page</h2>
+        <p class="about-us-intro-text">Real Stories of Thrill and Adventure!</p>
+        <p class="about-us-intro-text">
+          At AdrenalineVentures, we take immense pride in curating
+          adrenaline-packed journeys that leave our adventurers with
+          unforgettable memories and exhilarating experiences. Our Testimonial
+          Page is a collection of real stories from thrill-seekers and adventure
+          enthusiasts who have embarked on extraordinary escapades with us.
+          These testimonials are a testament to the passion, dedication, and
+          commitment we pour into every adventure we curate.
         </p>
-      </div>
+      </section>
     </header>
-
+    <!--testimonials-->
     <main>
-      <div class="testimonial">
-        <div class="testimonial_head">
-          <h2>Testimonial</h2>
-          <p>White-water rafting in the Grand Canyon</p>
-          <p>National Park, USA</p>
-        </div>
-        <div class="testimonial_container">
-          <img src="../images/Emily.jpg" alt="Experiencing an amazing activity of whitewater rafting">
-          <p id="testimonial_text">
-            White-water rafting in the Grand Canyon has been on my bucket list for years, and I couldn't have asked for a better experience than the one AdrenalineVentures provided. They took care of all the logistics, ensuring our safety and comfort throughout the journey.
+      <div class="testimonial-container" id="emily_testimonial">
+        <div class="testimonial">
+          <div class="testimonial_head">
+            <p class="test">Testimonial</p>
+            <p>White-water rafting in the Grand Canyon</p>
+            <p>National Park, USA</p>
+          </div>
+          <div class="testimonial_container">
+            <div class="testimonial_img">
+              <img
+                src="../images/testimonial-img/Emily.jpg"
+                alt="Experiencing an amazing activity of whitewater rafting"
+              />
+            </div>
+            <div class="testimonial_text">
+              <p>
+                White-water rafting in the Grand Canyon has been on my bucket
+                list for years, and I couldn't have asked for a better
+                experience than the one AdrenalineVentures provided. They took
+                care of all the logistics, ensuring our safety and comfort
+                throughout the journey. <br /><br />
 
-            Our guide was not only knowledgeable about the terrain but also a fantastic storyteller, sharing intriguing facts about the canyon's history. The rapids were thrilling, and the natural beauty of the canyon was awe-inspiring. Thanks to AdrenalineVentures, I had the adventure of a lifetime and met some fantastic fellow adventurers along the way. I highly recommend them to anyone seeking adrenaline-fueled experiences!.
-          </p>
-          <p class="testimonial_text name">- Emily Williams</p>
-          <p class="testimonial_text based"> Sydney, Australia</p>
+                Our guide was not only knowledgeable about the terrain but also
+                a fantastic storyteller, sharing intriguing facts about the
+                canyon's history. The rapids were thrilling, and the natural
+                beauty of the canyon was awe-inspiring. Thanks to
+                AdrenalineVentures, I had the adventure of a lifetime and met
+                some fantastic fellow adventurers along the way. I highly
+                recommend them to anyone seeking adrenaline-fueled experiences!.
+              </p>
+              <p class="testimonial_text name">
+                <strong>- Emily Williams</strong>
+              </p>
+              <p class="testimonial_text based"><em>Sydney, Australia</em></p>
+            </div>
+            <div class="quote">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z"
+                  fill="#1F2937"
+                />
+              </svg>
+            </div>
+          </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z" fill="#1F2937"/>
-        </svg>
+
+        <div class="testimonial">
+          <div class="testimonial_head">
+            <p class="test">Testimonial</p>
+            <p>Mountain Biking in the Andes</p>
+            <p>National Park, Peru</p>
+          </div>
+          <div class="testimonial_container">
+            <div class="testimonial_img">
+              <img
+                src="../images/testimonial-img/mark.jpg"
+                alt="photo at the top of the mountain with the bicycle"
+              />
+            </div>
+            <div class="testimonial_text">
+              <p>
+                I'm an avid mountain biker, and when I heard about
+                AdrenalineVentures' mountain biking expedition in the Andes, I
+                knew I had to sign up. And boy, was it worth it! The Andes
+                provided the most epic and challenging trails I've ever
+                encountered. The guides were exceptional, ensuring we had the
+                right equipment and skillfully guiding us through the diverse
+                landscapes. <br /><br />
+
+                The sense of achievement and the breathtaking views from the
+                mountain peaks were unforgettable. AdrenalineVentures exceeded
+                my expectations, and I left Peru with a newfound appreciation
+                for the power of nature and the thrill of mountain biking. I
+                can't wait to explore more trails with them in the future!.
+              </p>
+              <p class="testimonial_text name">
+                <strong>- Mark Steven</strong>
+              </p>
+              <p class="testimonial_text based"><em>United Kingdom</em></p>
+            </div>
+            <div class="quote">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z"
+                  fill="#1F2937"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial" id="sarah_testimonial">
+          <div class="testimonial_head">
+            <p class="test">Testimonial</p>
+            <p>Scuba Diving in the Great Barrier Reef</p>
+            <p>Great Barrier Reef Marine Park, Australia</p>
+          </div>
+          <div class="testimonial_container">
+            <div class="testimonial_img">
+              <img
+                src="../images/testimonial-img/sara.jpg"
+                alt="Motorbike diving "
+              />
+            </div>
+            <div class="testimonial_text">
+              <p>
+                I've always been fascinated by marine life, and diving in the
+                Great Barrier Reef has been a lifelong dream. AdrenalineVentures
+                made that dream a reality, and it was beyond anything I could
+                have imagined! The dive instructors were so knowledgeable and
+                passionate about the underwater world, making the experience
+                educational as well as thrilling.<br /><br />
+
+                The vibrant coral reefs and diverse marine species left me in
+                awe. Thanks to AdrenalineVentures, I got to explore a part of
+                our planet that is truly magical. I'm already planning my next
+                diving adventure with them!.
+              </p>
+              <p class="testimonial_text name">
+                <strong>- Sarah Martinez</strong>
+              </p>
+              <p class="testimonial_text based"><em>Barcelona, Spain</em></p>
+            </div>
+            <div class="quote">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z"
+                  fill="#1F2937"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial_head">
+            <p class="test">Testimonial</p>
+            <p>Rock Climbing in Yosemite</p>
+            <p>National Park, USA</p>
+          </div>
+          <div class="testimonial_container">
+            <div class="testimonial_img">
+              <img
+                src="../images/testimonial-img/Jason.jpg"
+                alt="man climbing a rock"
+              />
+            </div>
+            <div class="testimonial_text">
+              <p>
+                As a rock climbing enthusiast, climbing in Yosemite National
+                Park was a must-do for me. AdrenalineVentures' rock climbing
+                expedition was a game-changer. The guides were not only experts
+                in their craft but also patient and encouraging, helping me push
+                my limits and achieve climbs I never thought possible. The
+                granite walls of Yosemite were challenging and rewarding, and
+                the camaraderie among the climbers in our group was fantastic.
+                <br /><br />
+
+                AdrenalineVentures took care of all the logistics, making the
+                trip stress-free. Yosemite is a rock climber's paradise, and I'm
+                so grateful to AdrenalineVentures for creating such an
+                unforgettable experience..
+              </p>
+              <p class="testimonial_text name">
+                <strong>- Jason Patel</strong>
+              </p>
+              <p class="testimonial_text based"><em>Toronto, Canada</em></p>
+            </div>
+            <div class="quote">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z"
+                  fill="#1F2937"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial_head">
+            <p class="test">Testimonial</p>
+            <p>Snowboarding in the Swiss Alps</p>
+            <p>Swiss National Park, Switzerland</p>
+          </div>
+          <div class="testimonial_container">
+            <div class="testimonial_img">
+              <img
+                src="../images/testimonial-img/Emma.jpg"
+                alt="Experiencing an amazing activity of whitewater rafting"
+              />
+            </div>
+            <div class="testimonial_text">
+              <p>
+                Snowboarding in the Swiss Alps has always been a dream adventure
+                for me, and thanks to AdrenalineVentures, I got to experience it
+                in all its glory. The trip was flawlessly organized, from
+                airport transfers to lodging and lift passes. The slopes were a
+                perfect mix of challenges and stunning scenery, and the fresh
+                powder was a delight for any snowboarder. <br /><br />
+
+                The instructors were not only excellent coaches but also great
+                companions on and off the slopes. It was an adrenaline rush like
+                no other, and I'm so grateful to AdrenalineVentures for making
+                it happen. I'm already planning my next snowboarding adventure
+                with them!.
+              </p>
+              <p class="testimonial_text name">
+                <strong>- Emma Carter</strong>
+              </p>
+              <p class="testimonial_text based">
+                <em>Melbourne, Australia</em>
+              </p>
+            </div>
+            <div class="quote">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z"
+                  fill="#1F2937"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial_head">
+            <p class="test">Testimonial</p>
+            <p>Bungee Jumping and Ziplining in Queenstown</p>
+            <p>National Park, New Zealand</p>
+          </div>
+          <div class="testimonial_container">
+            <div class="testimonial_img">
+              <img
+                src="../images/testimonial-img/Michael.jpg"
+                alt="Experiencing an amazing activity of whitewater rafting"
+              />
+            </div>
+            <div class="testimonial_text">
+              <p>
+                Queenstown is known as the adventure capital of the world, and
+                my experience with AdrenalineVentures confirmed why! I took on
+                the ultimate adrenaline combo - bungee jumping and ziplining -
+                and it was an absolute blast. The bungee jump off the Kawarau
+                Bridge was an adrenaline surge like no other. <br /><br />
+
+                AdrenalineVentures curated a seamless and unforgettable
+                experience, combining these two epic activities in one day.
+                Queenstown has stolen my heart, and I can't wait to return for
+                more thrilling adventures with AdrenalineVentures!.
+              </p>
+              <p class="testimonial_text name">
+                <strong>- Michael Anderson</strong>
+              </p>
+              <p class="testimonial_text based"><em>New York City, USA</em></p>
+            </div>
+            <div class="quote">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+                fill="none"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z"
+                  fill="#1F2937"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="testimonial">
-        <div class="testimonial_head">
-          <h2>Testimonial</h2>
-          <p>Mountain Biking in the Andes</p>
-          <p>National Park, Peru</p>
-        </div>
-        <div class="testimonial_container">
-          <img src="../images/mark.jpg" alt="photo at the top of the mountain with the bicycle">
-          <p id="testimonial_text">
-            I'm an avid mountain biker, and when I heard about AdrenalineVentures' mountain biking expedition in the Andes, I knew I had to sign up. And boy, was it worth it! The Andes provided the most epic and challenging trails I've ever encountered. The guides were exceptional, ensuring we had the right equipment and skillfully guiding us through the diverse landscapes.
-
-            The sense of achievement and the breathtaking views from the mountain peaks were unforgettable. AdrenalineVentures exceeded my expectations, and I left Peru with a newfound appreciation for the power of nature and the thrill of mountain biking. I can't wait to explore more trails with them in the future!.
+      <section class="book-your-adventure">
+        <div class="book-your-adventure-box">
+          <h3 class="book-your-adventure-box-header">
+            Are you ready to experience the thrill of a lifetime?
+          </h3>
+          <p class="book-your-adventure-box-text">
+            Book now to begin the journey toward your next adventure!
           </p>
-          <p class="testimonial_text name">- Mark Stevens</p>
-          <p class="testimonial_text based"> London, United Kingdom</p>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z" fill="#1F2937"/>
-        </svg>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial_head">
-          <h2>Testimonial</h2>
-          <p>Scuba Diving in the Great Barrier Reef</p>
-          <p>Great Barrier Reef Marine Park, Australia</p>
+        <div class="book-your-adventure-button">
+          <a href="/pages/signup.html"> Book your Adventure </a>
         </div>
-        <div class="testimonial_container">
-          <img src="../images/sara.jpg" alt="Motorbike diving ">
-          <p id="testimonial_text">
-            I've always been fascinated by marine life, and diving in the Great Barrier Reef has been a lifelong dream. AdrenalineVentures made that dream a reality, and it was beyond anything I could have imagined! The dive instructors were so knowledgeable and passionate about the underwater world, making the experience educational as well as thrilling.
-
-            The vibrant coral reefs and diverse marine species left me in awe. Thanks to AdrenalineVentures, I got to explore a part of our planet that is truly magical. I'm already planning my next diving adventure with them!.
-          </p>
-          <p class="testimonial_text name">- Sarah Martinez</p>
-          <p class="testimonial_text based"> Barcelona, Spain</p>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z" fill="#1F2937"/>
-        </svg>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial_head">
-          <h2>Testimonial</h2>
-          <p>Rock Climbing in Yosemite</p>
-          <p>National Park, USA</p>
-        </div>
-        <div class="testimonial_container">
-          <img src="../images/Jason.jpg" alt="man climbing a rock">
-          <p id="testimonial_text">
-            As a rock climbing enthusiast, climbing in Yosemite National Park was a must-do for me. AdrenalineVentures' rock climbing expedition was a game-changer. The guides were not only experts in their craft but also patient and encouraging, helping me push my limits and achieve climbs I never thought possible. The granite walls of Yosemite were challenging and rewarding, and the camaraderie among the climbers in our group was fantastic.
-
-            AdrenalineVentures took care of all the logistics, making the trip stress-free. Yosemite is a rock climber's paradise, and I'm so grateful to AdrenalineVentures for creating such an unforgettable experience..
-          </p>
-          <p class="testimonial_text name">- Jason Patel</p>
-          <p class="testimonial_text based"> Toronto, Canada</p>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z" fill="#1F2937"/>
-        </svg>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial_head">
-          <h2>Testimonial</h2>
-          <p>Snowboarding in the Swiss Alps</p>
-          <p>Swiss National Park, Switzerland</p>
-        </div>
-        <div class="testimonial_container">
-          <img src="../images/Emma.jpg" alt="Experiencing an amazing activity of whitewater rafting">
-          <p id="testimonial_text">
-            Snowboarding in the Swiss Alps has always been a dream adventure for me, and thanks to AdrenalineVentures, I got to experience it in all its glory. The trip was flawlessly organized, from airport transfers to lodging and lift passes. The slopes were a perfect mix of challenges and stunning scenery, and the fresh powder was a delight for any snowboarder.
-
-            The instructors were not only excellent coaches but also great companions on and off the slopes. It was an adrenaline rush like no other, and I'm so grateful to AdrenalineVentures for making it happen. I'm already planning my next snowboarding adventure with them!.
-          </p>
-          <p class="testimonial_text name">- Emma Carter</p>
-          <p class="testimonial_text based"> Melbourne, Australia</p>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z" fill="#1F2937"/>
-        </svg>
-      </div>
-
-      <div class="testimonial">
-        <div class="testimonial_head">
-          <h2>Testimonial</h2>
-          <p> Bungee Jumping and Ziplining in Queenstown</p>
-          <p>National Park, New Zealand</p>
-        </div>
-        <div class="testimonial_container">
-          <img src="../images/Michael.jpg" alt="Experiencing an amazing activity of whitewater rafting">
-          <p id="testimonial_text">
-            Queenstown is known as the adventure capital of the world, and my experience with AdrenalineVentures confirmed why! I took on the ultimate adrenaline combo - bungee jumping and ziplining - and it was an absolute blast. The bungee jump off the Kawarau Bridge was an adrenaline surge like no other.
-
-            AdrenalineVentures curated a seamless and unforgettable experience, combining these two epic activities in one day. Queenstown has stolen my heart, and I can't wait to return for more thrilling adventures with AdrenalineVentures!.
-          </p>
-          <p class="testimonial_text name">- Michael Anderson</p>
-          <p class="testimonial_text based"> New York City, USA</p>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4834 22.0488C21.4834 17.2791 20.7771 12.5962 19.3642 8H4V22.1789H11.6821V24.6504C11.6821 27.4255 11.1302 29.4634 10.0265 30.7642C8.92273 32.065 7.22297 32.7154 4.92715 32.7154V40C10.4018 40 14.5298 38.4174 17.3113 35.252C20.0927 32.0867 21.4834 27.6857 21.4834 22.0488ZM44 22.0488C44 17.626 43.2495 12.9431 41.7483 8H26.3841V22.1789H34.0662V24.6504C34.0662 27.4255 33.5144 29.4634 32.4106 30.7642C31.3068 32.065 29.6071 32.7154 27.3113 32.7154V40C32.7859 40 36.936 38.3957 39.7616 35.187C42.5872 31.9783 44 27.5989 44 22.0488Z" fill="#1F2937"/>
-        </svg>
+      </section>
+      <div class="go-to-top">
+        <a href="#" class="go-to-top-button">
+          <img src="/images/icons/arrow-up.png" alt="button to go to top" />
+        </a>
       </div>
     </main>
+
     <footer>
-      <div class="footer-links">
-        <h3><a href="/index.html">AdrenalineVentures</a></h3>
-        <ul>
-          <li><a href="/pages/package.html">Packages</a></li>
-          <li><a href="/pages/testimonial.html">Testimonials</a></li>
-          <li><a href="/pages/about.html">About Us</a></li>
-          <li><a href="/pages/signup.html">Book an Adventure</a></li>
-          <li><a href="/pages/signup.html">Terms & Conditions</a></li>
-          <li><a href="/pages/signup.html">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div class="newsletter">
-        <h3>Subscribe for Our Newsletter</h3>
-        <form
-          action="/subscribe"
-          method="post">
-          <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            required />
-          <button type="submit">Sign Up</button>
-        </form>
-      </div>
-      <div class="stay-connected">
-        <h3>Stay Connected</h3>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="../social-media_icons/fb logo copy.png" alt="facebook logo"></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="../social-media_icons/ig logo copy.png" alt="instagram logo"></a>
-        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"><img src="../social-media_icons/tiktok logo copy.png" alt="tiktok logo"></a>
-        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src="../social-media_icons/twitter logo copy.jpg" alt="twitter logo"></a>
-      </div>
-      <div class="contact-us">
-        <h3>Contact Us</h3>
-        <p>Have questions or need assistance with your sign-up?</p>
-        <p>Feel free to reach out to us via phone or email:</p>
-        <p>Phone: +1 (555) 123-4567</p>
-        <p>Email:<a href="mailto:info@adrenalineventures.com">info@adrenalineventures.com</a></p>
-        <p>Join AdrenalineVentures today and let the adventure of a lifetime begin!</p>
-      </div>
+      <section>
+        <div class="left-links">
+          <p class="footer-heading">
+            <a href="/index.html">AdrenalineVentures</a>
+          </p>
+          <ul class="footer-links-list">
+            <li><a href="/pages/package.html">Packages</a></li>
+            <li><a href="/pages/testimonial.html">Testimonials</a></li>
+            <li><a href="/pages/about.html">About Us</a></li>
+            <li><a href="/pages/signup.html">Book an Adventure</a></li>
+            <li><a href="/pages/signup.html">Terms & Conditions</a></li>
+            <li><a href="/pages/signup.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-mid">
+          <div class="newsletter">
+            <p class="footer-heading">Subscribe for Our Newsletter</p>
+            <form action="/subscribe" method="post">
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="stay-connected">
+            <p class="footer-heading">Stay Connected</p>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="../images/icons/icons8-facebook-48.png"
+                alt="facebook logo"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="../images/icons/icons8-instagram-48.png"
+                alt="instagram logo"
+            /></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="../images/icons/icons8-tiktok-48.png"
+                alt="tiktok logo"
+            /></a>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="../images/icons/icons8-twitter-48.png"
+                alt="twitter logo"
+            /></a>
+          </div>
+        </div>
+
+        <div class="contact-us">
+          <p id="contact-us" class="footer-heading">Contact Us</p>
+          <p>Have questions or need assistance with your sign-up?</p>
+          <p>Feel free to reach out to us via phone or email:</p>
+          <p>Phone: +1 (555) 123-4567</p>
+          <p>
+            Email:<a href="mailto:info@adrenalineventures.com">
+              info@adrenalineventures.com</a
+            >
+          </p>
+          <p>
+            Join AdrenalineVentures today and let the adventure of a lifetime
+            begin!
+          </p>
+        </div>
+      </section>
+
       <div class="copyright">
         <p>© 2023 AdrenalineVentures</p>
       </div>

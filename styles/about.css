@@ -1,0 +1,209 @@
+/** @format */
+:root {
+  /* Colors */
+  --dark-background-color: #1f2937;
+  --hero-main-text-color: #f9faf8;
+  --hero-secondary-text-color: #e5e7eb;
+  --quote-text-color: #1f2937;
+  --button-color: #3882f6;
+  --info-header-text-color: #1f2937;
+  --quote-section-background-color: #e5e7eb;
+  /* Font sizes and weights */
+  --hero-main-text-size: 48px;
+  --hero-secondary-text-size: 18px;
+  --info-header-text-size: 36px;
+  --quote-text-size: 36px;
+  --header-logo-text-size: 24px;
+  --button-border-radius: 5px;
+  /* Common styles */
+  --margin-bottom-text: 5px;
+  --padding-section: 5% 5% 10% 5%;
+}
+
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/** section about-us-who */
+
+.about-us-who {
+  padding: var(--padding-section);
+  text-align: center;
+  padding: 15% 15% 15% 15%;
+}
+
+.about-us-who img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.about-us-who-header {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-main-text-size);
+  font-family: "RobotoExtraBold", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.about-us-who-text {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-secondary-text-size);
+  line-height: 2;
+}
+
+/** section about-us-what-sets-us-apart */
+
+.about-us-what-sets-us-apart {
+  background-color: var(--quote-section-background-color);
+  padding: var(--padding-section);
+  text-align: center;
+  padding: 15%;
+}
+
+.about-us-what-sets-us-apart-header {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-main-text-size);
+  font-family: "RobotoExtraBold", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.about-us-what-sets-us-apart-text {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-secondary-text-size);
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+/** flexbox about-us-boxes */
+
+.about-us-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-us-boxes-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.about-us-boxes-container {
+  position: relative;
+}
+
+.about-us-boxes-picture {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-us-boxes-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(76, 79, 80, 0.7);
+  border-radius: 20px;
+}
+
+.about-us-boxes-container:hover .about-us-boxes-overlay {
+  opacity: 1;
+}
+
+.about-us-boxes-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.about-us-boxes-long-text {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+/** section about-us-why-choose-us */
+
+.about-us-why-choose-us {
+  padding: var(--padding-section);
+  text-align: center;
+  padding: 15%;
+}
+
+.about-us-why-choose-us img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.about-us-why-choose-us-header {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-main-text-size);
+  font-family: "RobotoExtraBold", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.about-us-why-choose-us-text {
+  color: var(--info-header-text-color);
+  font-size: var(--hero-secondary-text-size);
+  line-height: 2;
+}
+
+/** section book-your-adventure */
+
+.book-your-adventure {
+  background-color: var(--button-color);
+  display: flex;
+  border-radius: 10px;
+  padding: 2% 2% 2% 10%;
+  margin: 0 15% 15% 15%;
+}
+
+.book-your-adventure-box {
+  margin: 3% 10% 3% 3%;
+}
+
+.book-your-adventure-box-header {
+  color: var(--hero-secondary-text-color);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.book-your-adventure-box-text {
+  color: var(--hero-secondary-text-color);
+}
+
+.book-your-adventure-button {
+  background-color: var(--button-color);
+  color: var(--hero-secondary-text-color);
+  border-color: var(--quote-section-background-color);
+  border-radius: var(--button-border-radius);
+  border-style: solid;
+  text-align: center;
+  padding: 2%;
+  justify-content: right;
+  margin: 2% 5% 2% 10%;
+}
+
+
