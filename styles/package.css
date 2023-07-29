@@ -39,6 +39,10 @@
   font-family: "Roboto";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .package-container {
   padding: 50px;
 }
@@ -227,7 +231,7 @@
   margin-left: -70px;
   margin-right: 0;
   object-fit: cover;
-  opacity:0.6;
+  opacity: 0.6;
 }
 
 .package-detail-picture,
@@ -246,4 +250,3 @@
   top: 20px;
   margin-left: -100px;
 }
-
