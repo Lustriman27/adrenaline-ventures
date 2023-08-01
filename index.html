@@ -4,231 +4,229 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
   </head>
   <body>
     <header>
-      <!-- NAV BAR -->
-      <nav>
-        <div class="navbar">
-          <div class="header_logo">
-            <a href="#">
-              <img
-                src="images/adrenalineventures-logo.png"
-                class="logo_size"
-                alt="AdrenalineVentures Logo"
-            /></a>
-          </div>
-          <div class="header_nav">
-            <a class="header" href="./pages/package.html">Packages</a>
-            <a class="header" href="./pages/testimonial.html">Testimonials</a>
-            <a class="header" href="./pages/about.html">About</a>
-            <a class="header" href="./pages/signup.html">Sign Up</a>
-          </div>
+      <nav class="navbar">
+        <div class="header-logo">
+          <a href="./index.html">
+            <img
+              src="./images/icons/adrenalineventures-logo.png"
+              class="logo-size"
+              alt="AdrenalineVentures Logo"
+            />
+          </a>
+        </div>
+        <div class="header_nav">
+          <a class="header" href="./pages/about.html">About Us</a>
+          <a class="header" href="./pages/package.html">Packages</a>
+          <a class="header" href="./pages/testimonial.html">Testimonials</a>
+          <a class="header" href="./pages/signup.html">Book an Adventure</a>
         </div>
       </nav>
-
-      <!-- SECTION 1 -->
-      <div>
-      <div class="hero">
-        <h2 class="hero_header">AdrenalineVentures</h2>
-        <p class="main_hero">
-          AdrenalineVentures is a premier travel and radical experiences company
-          that aims to provide thrill-seekers and adventure enthusiasts with the
-          ultimate adrenaline-packed vacations and unforgettable experiences.
-          <br />
-        </p>
-        <a href="../adrenaline-ventures/pages/signup.html">
-          <button class="button_hero">Sign Up</button>
-        </a>
-
-        <img
-          class="image_hero"
-          src="images/homepage_image.jpg"
-          alt="Display Image"
-        />
-      </div>
     </header>
 
     <main>
-      <!-- BL -->
-      <div>
-        <p class="blurb">
-          <strong>Customized Adventure Packages:</strong> AdrenalineVentures
-          offers tailor-made adventure packages, allowing customers to
-          personalize their trips based on their preferences, skill levels, and
-          desired intensity of experiences. Expert Guides and Instructors:
-          Safety is a top priority, and AdrenalineVentures employs highly
-          trained and experienced guides and instructors to accompany travelers
-          on their adventures.
-        </p>
-        <p class="blurb">
-          From extreme sports to wilderness treks, customers can trust in the
-          expertise of the team.
-        </p>
-      </div>
-
-      <!-- 4 SQUARES -->
-
-      <div class="packages">
+      <section class="hero">
         <div>
-          <a href="../adrenaline-ventures/pages/package.html">
-            <img src="images/packages-1.jpg" id="package" alt="packages" />
-          </a>
-          <a href="../adrenaline-ventures/pages/package.html">
-            <p class="package_name">Packages 1</p>
-          </a>
-        </div>
-        <div>
-          <a href="../adrenaline-ventures/pages/package.html">
-            <img src="images/packages-2.jpg" id="package" alt="packages" />
-          </a>
-          <a href="../adrenaline-ventures/pages/package.html">
-            <p class="package_name">Packages 2</p>
-          </a>
-        </div>
-        <div>
-          <a href="../adrenaline-ventures/pages/testimonial.html">
-            <img
-              src="images/testimonials-1.jpg"
-              id="package"
-              alt="testimonial"
-            />
-          </a>
-          <a href="../adrenaline-ventures/pages/testimonial.html">
-            <p class="package_name">Testimonial</p>
-          </a>
-        </div>
-        <div>
-          <a href="../adrenaline-ventures/pages/testimonial.html">
-            <img
-              src="images/testimonials-2.jpg"
-              id="package"
-              alt="testimonial"
-            />
-          </a>
-          <a href="../adrenaline-ventures/pages/about.html">
-            <p class="package_name">About</p>
-          </a>
-        </div>
-        <div>
-          <a href="../adrenaline-ventures/pages/signup.html">
-            <img src="" id="package" alt="sign up" />
-          </a>
-          <a href="../adrenaline-ventures/pages/signup.html">
-            <p class="package_name">Sign Up</p>
-          </a>
-        </div>
-      </div>
-
-      <!-- TESTIMONIAL -->
-      <div class="testimonial_home">
-        <p id="testimonial_text">
-          White-water rafting in the Grand Canyon has been on my bucket list for
-          years, and I couldn't have asked for a better experience than the one
-          AdrenalineVentures provided. They took care of all the logistics,
-          ensuring our safety and comfort throughout the journey.
-        </p>
-        <p id="testimonial_name">- Emily Williams</p>
-      </div>
-      <div class="call_to_action">
-        <div class="action_call">
-          <h3 id="action_call_header">
-            Sign Up for Thrilling Adventures with AdrenalineVentures!
-          </h3>
-
-          <p id="action_call_text">
-            Ready to embark on adrenaline-pumping journeys that will leave you
-            breathless and craving for more? Sign up now to experience the
-            ultimate thrill and connect with a community of adventure
-            enthusiasts just like you.
-          </p>
-        </div>
-        <div class="button_call">
+          <h2 class="hero_header">AdrenalineVentures</h2>
+          <blockquote class="main_hero">
+            AdrenalineVentures is a premier travel and radical experiences
+            company that aims to provide thrill-seekers and adventure
+            enthusiasts with the ultimate adrenaline-packed vacations and
+            unforgettable experiences.
+          </blockquote>
           <a href="../adrenaline-ventures/pages/signup.html">
             <button class="button_hero">Sign Up</button>
           </a>
         </div>
+        <picture class="main_image">
+          <img
+            class="image_hero"
+            src="images/testimonial-img/Emma.jpg"
+            alt="Display Image"
+          />
+        </picture>
+      </section>
+
+      <div class="blurb_1">
+        <h3>Customized Adventure Packages</h3>
       </div>
+
+      <section class="packages">
+        <figure>
+          <a href="./pages/package.html#package-biking">
+            <img
+              src="images/homepage-img/package-biking_thm.jpg"
+              id="package"
+              alt="mountain biking package"
+            />
+          </a>
+          <a href="./pages/package.html#package-biking">
+            <figcaption class="package_name">
+              Mountain Biking <br />and Trailblazing<br />Package
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="./pages/package.html#package-jumping">
+            <img
+              src="images/homepage-img/package-jumping_thm.jpg#package-jumping"
+              id="package"
+              alt="bungee jumping package"
+            />
+          </a>
+          <a href="./pages/package.html#package-jumping">
+            <figcaption class="package_name">
+              Bungee Jumping<br />and Ziplining<br />Package
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="./pages/testimonial.html#emily_testimonial">
+            <img
+              src="images/homepage-img/Emily_thm.jpg"
+              id="package"
+              alt="white water rafting testimonial"
+            />
+          </a>
+          <a href="./pages/testimonial.html#emily_testimonial">
+            <figcaption class="package_name">
+              White Water <br />Rafting<br />Testimonial
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="./pages/testimonial.html#sarah_testimonial">
+            <img
+              src="images/homepage-img/Sara_thm.jpg"
+              id="package"
+              alt="scuba diving testimonial"
+            />
+          </a>
+          <a href="./pages/testimonial.html#sarah_testimonial">
+            <figcaption class="package_name">
+              Scuba Diving<br />Testimonial
+            </figcaption>
+          </a>
+        </figure>
+      </section>
+
+      <section class="testimonial_home">
+        <blockquote id="testimonial_text">
+          White-water rafting in the Grand Canyon has been on my bucket list for
+          years, and I couldn't have asked for a better experience than the one
+          AdrenalineVentures provided. They took care of all the logistics,
+          ensuring our safety and comfort throughout the journey.
+        </blockquote>
+        <p id="testimonial_name">- Emily Williams</p>
+      </section>
+
+      <section class="book-your-adventure">
+        <div class="book-your-adventure-box">
+          <h4 class="book-your-adventure-box-header">
+            Are you ready to experience the thrill of a lifetime?
+          </h4>
+          <p class="book-your-adventure-box-text">
+            Book now to begin the journey toward your next adventure!
+          </p>
+        </div>
+        <div class="book-your-adventure-button">
+          <a href="./pages/signup.html"> Book your Adventure </a>
+        </div>
+      </section>
+      <section class="go-to-top">
+        <a href="#" class="go-to-top-button">
+          <img src="./images/icons/arrow-up.png" alt="button to go to top" />
+        </a>
+      </section>
     </main>
     <footer>
-      <div class="footer-links">
-        <h3><a href="/index.html">AdrenalineVentures</a></h3>
-        <ul>
-          <li><a href="/pages/package.html">Packages</a></li>
-          <li><a href="/pages/testimonial.html">Testimonials</a></li>
-          <li><a href="/pages/about.html">About Us</a></li>
-          <li><a href="/pages/signup.html">Book an Adventure</a></li>
-          <li><a href="/pages/signup.html">Terms & Conditions</a></li>
-          <li><a href="/pages/signup.html">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div class="newsletter">
-        <h3>Subscribe for Our Newsletter</h3>
-        <form action="/subscribe" method="post">
-          <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            required
-          />
-          <button type="submit">Sign Up</button>
-        </form>
-      </div>
-      <div class="stay-connected">
-        <h3>Stay Connected</h3>
-        <a
-          href="https://www.facebook.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            src="../social-media_icons/fb_logo_copy.png"
-            class="footer_logo"
-            alt="facebook logo"
-        /></a>
-        <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            src="../social-media_icons/ig_logo_copy.png"
-            class="footer_logo"
-            alt="instagram logo"
-        /></a>
-        <a
-          href="https://www.tiktok.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            src="../social-media_icons/tiktok_logo_copy.png"
-            class="footer_logo"
-            alt="tiktok logo"
-        /></a>
-        <a
-          href="https://www.twitter.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            src="../social-media_icons/twitter_logo_copy.jpg"
-            class="footer_logo"
-            alt="twitter logo"
-        /></a>
-      </div>
-      <div class="contact-us">
-        <h3>Contact Us</h3>
-        <p>Have questions or need assistance with your sign-up?</p>
-        <p>Feel free to reach out to us via phone or email:</p>
-        <p>Phone: +1 (555) 123-4567</p>
-        <p>
-          Email:<a href="mailto:info@adrenalineventures.com"
-            >info@adrenalineventures.com</a
-          >
-        </p>
-        <p>
-          Join AdrenalineVentures today and let the adventure of a lifetime
-          begin!
-        </p>
-      </div>
+      <section>
+        <div class="left-links">
+          <p class="footer-heading">
+            <a href="./index.html">AdrenalineVentures</a>
+          </p>
+          <ul class="footer-links-list">
+            <li><a href="./pages/package.html">Packages</a></li>
+            <li><a href="./pages/testimonial.html">Testimonials</a></li>
+            <li><a href="./pages/about.html">About Us</a></li>
+            <li><a href="./pages/signup.html">Book an Adventure</a></li>
+            <li><a href="./pages/signup.html">Terms & Conditions</a></li>
+            <li><a href="./pages/signup.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-mid">
+          <div class="newsletter">
+            <p class="footer-heading">Subscribe for Our Newsletter</p>
+            <form action="/subscribe" method="post">
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="stay-connected">
+            <p class="footer-heading">Stay Connected</p>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./images/icons/icons8-facebook-48.png"
+                alt="facebook logo"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./images/icons/icons8-instagram-48.png"
+                alt="instagram logo"
+            /></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./images/icons/icons8-tiktok-48.png" alt="tiktok logo"
+            /></a>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./images/icons/icons8-twitter-48.png"
+                alt="twitter logo"
+            /></a>
+          </div>
+        </div>
+
+        <div class="contact-us">
+          <p id="contact-us" class="footer-heading">Contact Us</p>
+          <p>Have questions or need assistance with your sign-up?</p>
+          <p>Feel free to reach out to us via phone or email:</p>
+          <p>Phone: +1 (555) 123-4567</p>
+          <p>
+            Email:<a href="mailto:info@adrenalineventures.com">
+              info@adrenalineventures.com</a
+            >
+          </p>
+          <p>
+            Join AdrenalineVentures today and let the adventure of a lifetime
+            begin!
+          </p>
+        </div>
+      </section>
+
       <div class="copyright">
         <p>© 2023 AdrenalineVentures</p>
       </div>
