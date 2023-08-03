@@ -76,7 +76,7 @@
   background-color: var(--dark-background-color);
   padding: var(--padding-section);
   text-align: center;
-  padding: 15%;
+  padding: 5%;
 }
 
 .about-us-intro-header {
@@ -84,7 +84,7 @@
   font-size: var(--hero-main-text-size);
   font-family: "RobotoExtraBold", sans-serif;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 .about-us-intro-text {

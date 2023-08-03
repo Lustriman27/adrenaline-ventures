@@ -158,6 +158,15 @@ html {
   text-align: center;
 }
 
+.package-service-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
 .package-guide-title {
   margin: 0 0 50px;
   font-size: var(--hero-main-text-size);
